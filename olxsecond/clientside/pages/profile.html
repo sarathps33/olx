@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="top">
+                <img src="../images/profile.avif" alt="pro pic" id="profile">
+                <h2 id="username">Name</h2>
+                <div class="details">
+                    <img src="../images/mail.png" alt="" id="logo">
+                    <div id="email">email</div>
+                </div>
+                <div class="details">
+                    <img src="../images/location_on_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="" id="logo">
+                    <div id="place">place</div>
+                </div>
+                <div class="details">
+                    <img src="../images/home_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="" id="logo">
+                    <div id="address">address,aajhbshjbahjb,dasuhshb</div>
+                </div>
+                <div class="details">
+                    <img src="../images/pos.png" alt="" id="logo">
+                    <div id="pincode">pincode</div>
+                </div>
+                <div class="details">
+                    <img src="../images/phone_android_16dp_000000_FILL0_wght400_GRAD0_opsz20.png" alt="" id="logo">
+                    <div id="phone">phone</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="button" id="edit">
+                    
+                </div>
+                <div class="button" id="logout">
+                        <img src="../images/logout.png" alt="" onclick="logout()">
+                </div>
+                <div class="button" id="delete">
+                    <img src="../images/delete.png" alt="" onclick="deleteAccount()">
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="navbar">
+                 <div class="search">
+                    <input type="text" name="" id="search"  placeholder="Find cars,mobile Phones and more...">
+                    <img src="../images/search_2.png" alt="">
+                 </div>
+                 <div class="bookings">
+                    <button>BOOKINGS</button>
+                 </div>
+                 <div class="filter">
+                    <select id="filter" name="category" >
+                        <option value="vehicle">VEHICLE</option>
+                        <option value="electronics">ELECTRONICS</option>
+                        <option value="pets">PETS</option>
+                        <option value="homes">HOMES</option>
+                        <option value="land">LAND</option>
+                        <option value="furniture">FURNITURE</option>
+                        <option value="books">BOOKS</option>
+                        <option value="fashion">FASHION</option>
+                        <option value="sports">SPORTS </option>
+                    </select>
+                 </div>
+            </div>
+            <div id="products">
+                
+            </div>
+        </div>
+    </div>
+    <script src="../js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(145deg,white,rgb(123, 176, 228));
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(193, 221, 249);
+    border-radius: 20px;
+    box-shadow: rgba(45, 197, 247, 0.4) -5px 5px, rgba(46, 198, 240, 0.3) -10px 10px, rgba(80, 55, 243, 0.2) -15px 15px, rgba(4, 14, 98, 0.1) -20px 20px, rgba(59, 2, 165, 0.05) -25px 25px;
+
+}
+
+h1 {
+    text-align: center;
+    color: #2d346a; /* Dark Green */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #2b47b9; /* Dark Green */
+}
+
+input,
+textarea ,select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1f40c4; /* Light Green Border */
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2344d4; /* Green */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6245a0; /* Darker Green */
+}
+
+
+#pro img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    margin-right: 1%;
+}
+
+

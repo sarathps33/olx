@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(135deg,rgb(58, 108, 58),white);
+}
+.navbar img{
+    width: 50px;
+}
+.navbar button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: 5px solid rgb(35, 45, 35)
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(4, 56, 26);
+}
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.profile-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.dropdown {
+    display: none;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    right: 2%;
+    
+}
+.dropdown img{
+    display: block;
+    height: 22%;
+    width: 22%;
+    border-radius: 50%;
+    padding: 12px 12px;
+    cursor: pointer;
+    margin-left: 34%;
+    object-fit: cover;
+}
+.dropdown img:hover{
+    background-color: #f1f1f1;
+}
+.dropdown-option {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dropdown-option:hover {
+    background-color: #f1f1f1;
+}
+.image{
+    height: 30%;
+    width: 100%;
+}
+
+.dropdown button{
+    width: 100%;
+    height: 20%;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bolder;
+    background-color: rgb(27, 67, 114);
+    border: 1px solid rgb(77, 25, 62);
+    border-radius: 20px;
+    color: white;
+    /* margin-bottom: 15%; */
+}
+.navbar input{
+    width: 50%;
+    height: 5vh;
+    padding-left: 1%;
+    border: 2px solid black;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    
+
+}
+.search img{
+    background-color: black;
+    height: 5.46vh;
+    width: 40px;
+    object-fit: cover;
+}
+.dropdown-option a{
+    color: white;
+}
+#products{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 1%;
+    margin: 1% 2%;
+    line-height: 4vh;
+    transition: 0.4s;
+    overflow-x: hidden;
+}
+.product:hover{
+    transform: scale(1.05);
+}
+.product .image{
+    position: absolute;
+    right: 2%;
+    bottom: 8%;
+    height: 25px;
+    width: 25px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.product img{
+    display: block;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    text-align: center;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+}
+.product h1{
+    color: rgb(2, 71, 2);
+}
+#hover:hover{
+    cursor: pointer;
+}
+.booking{
+    color: green;
+    font-weight: 600;
+}

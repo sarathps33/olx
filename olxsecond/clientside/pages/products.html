@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h4>Category: <span id="category"></span></h4>
+            <h2>Price: <span id="price"></span></h2>
+        </div>
+        <div class="content">
+            <div class="product-images">
+                <div class="main-image">
+                    <img src="" id="image" alt="Main Product Image">
+                </div>
+                <div class="prodimg" id="prodimg">
+                </div>
+            </div>
+            
+            <h1 id="pname"></h1>
+            <div class="details">
+                <div class="description">
+                    <h3 >Description</h3>
+                    <p><label>What seller says:</label> <span id="description"></span></p>
+                </div>
+                <div class="seller-info">
+                    <h3>Seller Information</h3>
+                    <p>Name: <b><span id="sellerName"></span></b></p>
+                    <p><label>Phone:</label> <span id="phone"></span></p>
+                </div>
+                <div class="location-info">
+                    <h3>Location</h3>
+                    <p><label>Place:</label> <span id="place"></span></p>
+                    <p><label>Address:</label> <span id="address"></span></p>
+                    <p><label>Pincode:</label> <span id="pincode"></span>10001</p>
+                </div>
+                <div class="button-group" id="check"> 
+                    <!-- <button class="buy-now" >Buy Now</button>  -->
+                    <button class="edit-product" id="edit"></button>
+                    <button class="delete-product">Delete Product</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/products.js"></script>
+</body>
+</html>
